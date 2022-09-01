@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+ul,li {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
+u {
+  text-decoration: none;
+}
+input {
+  outline: none;
+  border-radius: 0;
+  -webkit-appearance: none;
+  &::placeholder {
+    color: #9A9BA1;
+  }
+  &::-webkit-outer-spin-button,&::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+textarea {
+  outline: none;
+  border: none;
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+}
+.fxi {
+  display: flex;
+  align-items: center;
+}
+._eps {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

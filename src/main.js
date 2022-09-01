@@ -1,0 +1,10 @@
+import { createApp } from 'vue'
+import App from './App.vue'
+// import router from './router'
+// import store from './store'
+import './assets/style/base.scss'
+import 'element-plus/dist/index.css'
+import ElementPlus from 'element-plus'
+import './components/common/scrollbar/scrollbar.css'
+import LlScrollbar from './components/common/scrollbar/scrollbar'
+createApp(App).use(LlScrollbar).use(ElementPlus, { size: 'small', zIndex: 3000 }).mount('#app')
